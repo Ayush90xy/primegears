@@ -1,0 +1,52 @@
+.about{
+  display: flex;
+
+  .aboutContainer{
+    flex:6;
+    position: relative;
+
+    .top{
+      height:20%;
+      padding: 20px;
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/primegears01.appspot.com/o/images%2Fcolorful-2174045.png?alt=media&token=a9a9386d-bb16-4fbc-8c16-0a133e4f68d5"); 
+
+      h1{
+        color:whitesmoke;
+        font-weight: 700;
+        font-size: 90px;
+        padding: 100px;
+      }
+
+    }
+
+    .bottom{
+      width:100%;
+      color:aliceblue;
+      font-size: 20px;
+      text-align: center;
+      background-color: rgba(205, 54, 84, 0.854);
+      position: absolute;
+      bottom: 0px;
+
+      .contact{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap:3px;
+
+        .link{
+          text-decoration: none;
+          color:aliceblue;
+        }
+      }
+    }
+
+    .middle{
+      padding: 20px;
+      h2{
+        text-align: left;
+        padding: 3% 8%;
+      }
+    }
+  }
+}

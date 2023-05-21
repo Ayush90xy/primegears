@@ -1,0 +1,53 @@
+.newTransaction{
+  width: 100%;
+  display: flex;
+
+  .newTransContainer{
+    flex:6;
+
+    .headTitle{
+      color:rgb(134, 134, 134);
+      font-size: 30px;
+    }
+
+    .top,.middle,.bottom{
+      -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+      padding: 10px;
+      margin: 20px;
+
+      #Header{
+        font-size: 40px;
+        font-weight: 500;
+      }
+
+      h1{
+        font-size: 24px;
+        color:gray;
+        margin: 10px;
+      }
+    }
+  }
+
+  #confirm{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    #finalGoback,#finalButton,#doTransactionBtn{
+      width: 150px;
+      padding: 10px;
+      margin: 10px;
+      border: none;
+      background-color: teal;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  
+    #finalGoback{
+      background-color:crimson;
+    }
+  }
+}

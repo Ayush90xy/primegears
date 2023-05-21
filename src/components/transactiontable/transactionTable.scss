@@ -1,0 +1,58 @@
+.transactionTable{
+  padding: 20px;
+  .transactionTableTitle{
+    width: 100%;
+    font-size: 16px;
+    color:gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .error{
+      align-self: center;
+      width:40%;
+    }
+
+    .link{
+      text-decoration: none;
+      color:green;
+      font-size: 16px;
+      font-weight: 400;
+      border:1px solid green ;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .cellAction{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  
+    .actionInput{
+      width: 40px;
+    }
+
+    .removeBtn{
+      padding: 2px 5px;
+      border-radius:5px;
+      color:crimson;
+      border:1px dotted rgba(220, 20, 60, 0.45);
+      cursor: pointer;
+      text-overflow: initial;
+      width: 100%;
+    }
+
+    .addBtn{
+      position: relative;
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 1px dotted rgba(0, 0, 139, 0.342);
+      cursor: pointer;
+    }
+
+  }
+}

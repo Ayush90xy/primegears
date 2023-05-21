@@ -1,0 +1,38 @@
+.notify{
+  flex:1;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  .notifyContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);;
+    border-radius: 30px;
+    background-color: rgba(230, 164, 40, 0.249);
+
+    .left{
+      .icon{
+        height: 100%;
+         color:rgba(220, 20, 60, 0.92);
+        font-size: 120px;
+      }
+      
+    }
+
+    .right{
+      display: flex;
+      flex-direction: column;
+      span{
+        font-size: 40px;
+        color: rgba(241, 155, 6, 0.925);
+        b{
+          color: black;
+        }
+      }
+
+    }
+  }
+}

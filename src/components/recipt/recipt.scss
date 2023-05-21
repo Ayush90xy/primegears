@@ -1,0 +1,155 @@
+.recipt{
+  position: relative;
+  text-align: center;
+  width: 21cm;
+  height: 29.7cm;
+  background-color: rgb(246, 246, 246);
+  margin:0px auto 0px auto;
+  .top,.middle,.bottom{
+    display: flex;
+    flex-direction: column;
+  }
+
+  hr{
+    border: 3px solid rgb(223, 215, 215);
+    border-radius: 2px;
+    width:95%;
+    margin: 0px auto 0px auto;
+  }
+
+  .top{
+    .heading,.invoiceInfo{
+      margin-top: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 30px;
+      padding-bottom: 0px;
+
+      h1{
+        font-size: 70px;
+        letter-spacing: 5px;
+      }
+
+      img{
+        height:200px;
+        width:200px;
+      }
+
+      p{
+        font-size: 18px;
+        color:green;
+      }
+
+      .invoiceTo{
+        text-align: left;
+
+        h3{
+          color:gray;
+          font-size: 24px;
+        }
+      }
+
+      .invoiceDet{
+        text-align: right;
+      }
+    }
+  
+  }
+  .middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+    .productHeader{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .productTitle{
+        color: green;
+        font-size: 14px;  
+        font-weight:700;
+      }
+    }
+  }
+
+  .bottom{
+    //position:relative;
+    margin-top: 25px;
+   // text-align: right;
+    .total{
+      margin-bottom: auto;
+      width: 50%;
+      padding-right: 25px;
+      margin-left: auto;
+      text-align: right;
+      
+      #innerHr{
+        width: 100%;
+        margin-top: 12px;
+      }
+      .totalAmt{
+        font-size: 20px;
+        color: green;
+        padding: 20px 30px;
+        &.price{
+          color: gray;
+        }
+      }
+    }
+
+    .extraInfo{
+      position: absolute;
+      top:945px;
+      margin-top: auto;
+      h1{
+        margin: 0;
+        font-size: 16px;
+        text-align: left;
+        padding: 10px 30px 0px 30px;
+        color: gray;
+      }
+      .details{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+        gap:20px;
+
+        h4{
+          margin-top: 0px;
+          color:green;
+        }
+
+        .bankInfo{
+          display: flex;
+          flex-direction: column;
+          word-wrap:normal;
+          text-align: left;
+        }
+        .address{
+          text-align: left;
+        }
+
+        .contact{
+          text-align: left;
+          .contactDetails{
+            display: flex;
+            flex-direction: column;
+          }
+        }
+
+        span{
+          color:rgba(128, 128, 128, 0.845);
+          b{
+            color: green;
+          }
+        }
+      }
+    }
+  }
+}
+// 2480 x 3508 pixels

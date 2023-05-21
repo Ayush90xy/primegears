@@ -1,0 +1,52 @@
+.processTransaction{
+padding: 20px;
+  .havingBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .selection{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap:20px;
+    }
+    .link{
+      text-decoration: none;
+      color:crimson;
+      font-size: 16px;
+      font-weight: 400;
+      border:1px solid rgba(239, 47, 63, 0.763) ;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &.proceed{
+        color: green;
+        border:1px solid rgb(59, 208, 26) ;
+      }
+
+      &.clear{
+        color:goldenrod;
+        border:1px solid rgb(239, 214, 47) ;
+      }
+    }
+  }
+
+  .cellAction{
+    .addBtnCustomer{
+      position: relative;
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 1px dotted rgba(0, 0, 139, 0.342);
+      cursor: pointer;
+    }
+  }
+  .DownText{
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
+  }
+}
