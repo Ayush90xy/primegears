@@ -12,7 +12,9 @@ import { Alert } from "@mui/material";
 
 const Profile = () => {
  // const navigate=useNavigate();
-  const[currentInfo,setCurrent]=useState({});
+  const[currentInfo,setCurrent]=useState({img:"https://firebasestorage.googleapis.com/v0/b/primegears01.appspot.com/o/images%2F1683827257299Image.jpg?alt=media&token=28f62b6b-db13-40ab-bdcb-291988a9eb9b",
+  fname:"Ayush",lname:"Singh",email:"ayush90xy@gmail.com",phone:"8787657109",hobbies:"Singing,Book Reading",address:"Oakland Road,Shillong"
+  });
   const[info,setInfom]=useState({});
   const[edit,setEdit]=useState(false);
   const [file,setFile]=useState();
